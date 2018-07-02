@@ -29,7 +29,7 @@ class Image extends MY_Controller {
 
                     $this->load->library('upload');
 
-                    //$upload_path = '/var/www/qkangaroo-cdn.rkmarketing.net/web/uploads/profile_pictures/';
+                    //$upload_path = '/var/www/xxxxxx/web/uploads/profile_pictures/';
                     $upload_path = '/hosted-libraries/temp/';
                     $upload_path = $_SERVER['DOCUMENT_ROOT'] . $upload_path;
                     $upConfig['upload_path'] = $upload_path;
